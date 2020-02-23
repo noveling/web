@@ -1,0 +1,170 @@
+{
+  "id": "1625407",
+  "name": "hotstore",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "243147",
+      "name": "subtract",
+      "font_class": "subtract",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "247432",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "381821",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "403261",
+      "name": "list",
+      "font_class": "icon37",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "579915",
+      "name": "buycar",
+      "font_class": "buycar",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "611256",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "683150",
+      "name": "fen-lei",
+      "font_class": "classify",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "712699",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "815508",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "883931",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1055041",
+      "name": "back-to-top",
+      "font_class": "backtotop",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "1111000",
+      "name": "phone",
+      "font_class": "caigoutonggerenbangaobaozhenzhucedenglu20",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "1198958",
+      "name": "back-to-top",
+      "font_class": "back-to-top",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "1212617",
+      "name": "bottom ",
+      "font_class": "bottom",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "1216291",
+      "name": "collect",
+      "font_class": "collect",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "1380751",
+      "name": "right",
+      "font_class": "duihao",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1455714",
+      "name": "shop",
+      "font_class": "shop",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "4682525",
+      "name": "buy",
+      "font_class": "buy",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "7214850",
+      "name": "Go to bottom",
+      "font_class": "Gotobottom",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "7275260",
+      "name": "Bottom Right",
+      "font_class": "BottomRight",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "8641497",
+      "name": "profile hover",
+      "font_class": "profilehover",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "11420376",
+      "name": "un-backtotop-o",
+      "font_class": "un-backtotop-o",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "11982657",
+      "name": "Home, homepage, menu",
+      "font_class": "Homehomepagemenu",
+      "unicode": "e9ce",
+      "unicode_decimal": 59854
+    }
+  ]
+}

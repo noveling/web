@@ -1,0 +1,3 @@
+@import "./normalize.css";
+ /* 阻止touch默认行为 */
+* { touch-action: none; }
