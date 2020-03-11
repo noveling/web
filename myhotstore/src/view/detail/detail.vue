@@ -9,7 +9,7 @@
         <my-scroll class="content">
             <img-wrapper class="my-wrapper">
                 <div class="img-nail" slot="imgWrapper">
-                    <img :src="goodsInfo.item_pic" alt="...">
+                    <img :src="imgUrl" alt="...">
                 </div>
             </img-wrapper>
             <goods-detail>
@@ -110,6 +110,14 @@ export default {
             toastMsg:"- -",
             timer:()=>{},
         }
+    },
+    computed:{
+        imgUrl(){   
+            if(this.goodsInfo.item_pic){
+                return this.goodsInfo.item_pic.startsWith("http")?this.goodsInfo.item_pic:"https:"+this.goodsInfo.item_pic
+            }
+            return "@/assets/img/loading.png"
+        },
     },
     created(){
         this.clothesData = clothesdata.data

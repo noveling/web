@@ -4,7 +4,7 @@
         <!-- <div class="item-set">
             <img  :src="goodsItem.item_pic" alt="...">
         </div> -->
-        <img  v-lazy="goodsItem.item_pic" alt="..." @load="imgLoad">
+        <img  v-lazy="imgUrl" alt="..." @load="imgLoad">
         <p class="title">{{goodsItem.item_title}}</p>
         <span class="price">￥{{goodsItem.item_price}}</span>
         <span class="current-price">￥{{goodsItem.item_current_price}}</span>
@@ -41,6 +41,12 @@ export default {
                     currentIndex:this.currentIndex
                 }
             })
+        }
+    },
+    computed:{
+        // 加上https前缀
+        imgUrl(){
+            return this.goodsItem.item_pic.startsWith("http")?this.goodsItem.item_pic:"https:"+this.goodsItem.item_pic;
         }
     }
 }

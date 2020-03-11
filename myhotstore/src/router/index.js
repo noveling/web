@@ -41,5 +41,7 @@ export default new Router({
       component: Detail,
     }
   ],
-  mode:"history"
+  // mode:"history",
+  // 当前执行脚本的绝对路径
+  base:__dirname
 })

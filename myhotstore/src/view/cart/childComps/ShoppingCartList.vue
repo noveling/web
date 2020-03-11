@@ -6,7 +6,7 @@
             </span>
             <span slot="item-img">
                 <img-wrapper>
-                <span slot="imgWrapper"><img :src="item.img" alt="..." @load="cartLoad"></span>
+                <span slot="imgWrapper"><img :src="item.img|urlFormat" alt="..." @load="cartLoad"></span>
                 </img-wrapper>
             </span>
             <span slot="item-title" class="item-title">
@@ -41,6 +41,14 @@ export default {
         },
         cartLoad(){
             this.$bus.$emit("cartLoad")
+        }
+    },
+    filters:{
+        urlFormat(imgUrl){
+            if(imgUrl.startsWith("http")){
+                return imgUrl
+            }
+            return "https:"+imgUrl
         }
     }
 }
